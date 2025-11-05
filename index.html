@@ -4,38 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terminos y condiciones Skillswap</title>
-    <style>
-        .logo {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            width: 120px;
-        }
-        .margen{
-            padding: 20px;
-        }
-        .fondo{
-            background-color: #C5D6F0;
-        }
-        .text{
-            text-align: justify;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="margen fondo">
-    <h1>Política de Privacidad</h1>  
-    <img src="SkillSwapLogo.jpg" alt="SkillSwap Logo" width="200"  class="logo">
-    <br>
+<body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <img src="SkillSwapLogo.jpg" alt="SkillSwap Logo" class="logo">
+                <div>
+                    <h1 class="site-title">SkillSwap</h1>
+                    <p class="tagline">Intercambio de habilidades - Política de privacidad</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#policy">Política</a>
+                <a href="#rights">Tus derechos</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+        </div>
+    </header>
 
-    <h3>Política de Privacidad de SkillSwap </h3>
+    <main id="main">
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero-title">Política de Privacidad</h2>
+                <p class="hero-sub">Última actualización: <strong>30 de octubre de 2025</strong></p>
+                <p class="hero-lead">En SkillSwap nos tomamos muy en serio la protección de tus datos. A continuación encontrarás cómo recopilamos, usamos y protegemos tu información.</p>
+                <a class="btn-primary" href="#policy">Leer la política</a>
+            </div>
+        </section>
 
-    <h3> Última actualización: 30 de octubre de 2025</h3>
+        <div class="container content-grid">
+            <article id="policy" class="card policy-card" aria-labelledby="policy-heading">
+                <h3 id="policy-heading">Política de Privacidad de SkillSwap</h3>
+                <p class="muted">Desarrollador: <strong>Lourdes Ali Hernández García</strong></p>
 
-    <h4> Desarrollador: Lourdes Ali Hernández García </h4>
+                <p>En SkillSwap, valoramos tu privacidad y nos comprometemos a proteger tu información personal. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos tus datos cuando utilizas nuestra plataforma de intercambio de habilidades. Al utilizar SkillSwap, aceptas las prácticas descritas en esta política.</p>
 
-    <p>
-        En SkillSwap, valoramos tu privacidad y nos comprometemos a proteger tu información personal. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos tus datos cuando utilizas nuestra plataforma de intercambio de habilidades. Al utilizar SkillSwap, aceptas las prácticas descritas en esta política.
-    </p>
+                <h4>1. Información que recopilamos</h4>
+                <p>Recopilamos varios tipos de información para proporcionar y mejorar nuestros servicios:</p>
+                <ul>
+                    <li><strong>Información personal:</strong> Nombre, correo electrónico, teléfono y otra información que proporcionas al registrarte.</li>
+                    <li><strong>Información de uso:</strong> Datos sobre cómo utilizas la plataforma, páginas visitadas e interacciones.</li>
+                    <li><strong>Cookies y tecnologías similares:</strong> Empleamos cookies para mejorar tu experiencia; puedes gestionar esto desde tu navegador.</li>
+                </ul>
+
+                <h4>2. Cómo usamos tu información</h4>
+                <ul>
+                    <li>Proveer y mantener los servicios.</li>
+                    <li>Personalizar y mejorar tu experiencia.</li>
+                    <li>Comunicarnos contigo con notificaciones importantes.</li>
+                    <li>Prevenir fraudes y proteger la seguridad de la plataforma.</li>
+                </ul>
+
+                <h4>3. Compartir tu información</h4>
+                <p>No vendemos ni alquilamos tu información. Podemos compartir datos únicamente en casos limitados:</p>
+                <ul>
+                    <li>Con tu consentimiento.</li>
+                    <li>Con proveedores que nos ayudan a operar la plataforma.</li>
+                    <li>Cuando lo exija la ley o para proteger nuestros derechos.</li>
+                </ul>
+
+                <h4>4. Seguridad de la información</h4>
+                <p>Implementamos medidas técnicas y organizativas razonables para proteger tus datos. Ningún sistema es infalible; sin embargo, trabajamos para minimizar los riesgos.</p>
+
+                <h4 id="rights">5. Tus derechos</h4>
+                <p>Tienes derecho a acceder, rectificar o eliminar tus datos, y a oponerte al tratamiento cuando proceda. Para ejercerlos, contáctanos como se indica al final.</p>
+
+                <h4>6. Cambios a esta política</h4>
+                <p>Pueden actualizarse los términos; notificaremos cambios publicando la versión actualizada y la fecha de última modificación.</p>
+            </article>
+
+            <aside class="card details">
+                <h4>Contacto</h4>
+                <p>Si tienes preguntas o deseas ejercer tus derechos, escríbenos:</p>
+                <p><a href="mailto:ah4331717@gmail.com">ah4331717@gmail.com</a></p>
+
+                <h4>Acerca de</h4>
+                <p class="small">SkillSwap ofrece un espacio para el intercambio de habilidades entre usuarios. Valoramos la transparencia y la seguridad.</p>
+
+                <div class="meta">
+                    <p><strong>Última actualización:</strong> 30 oct 2025</p>
+                    <p><strong>Desarrollador:</strong> Lourdes Ali Hernández García</p>
+                </div>
+            </aside>
+        </div>
+
+        <section class="container cta">
+            <div class="cta-inner">
+                <p class="cta-text">¿Necesitas que actualicemos o adaptemos esta política para tu organización?</p>
+                <a class="btn-outline" href="mailto:ah4331717@gmail.com">Contactar</a>
+            </div>
+        </section>
+    </main>
     <h2>1. Información que recopilamos</h2>
     <p>
         Recopilamos varios tipos de información para proporcionar y mejorar nuestros servicios:
@@ -85,9 +149,16 @@
         Correo electrónico: ah4331717@gmail.com
     </p>                                                                            
            
-    <p>
-        Gracias por confiar en SkillSwap. Nos comprometemos a proteger tu privacidad y a brindarte una experiencia segura y satisfactoria en nuestra plataforma.
-    </p>      
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> SkillSwap. Todos los derechos reservados.</p>
+            <p class="small">Política mantenida por Lourdes Ali Hernández García.</p>
+        </div>
+    </footer>
 
-</body> 
+    <script>
+        // Ajustes menores: fecha en el pie
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
 </html>
